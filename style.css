@@ -34,30 +34,37 @@ header p {
 
 /* Navigation styles */
 nav {
-    background-color: #fff;
-    padding: 10px 0;
+    background-color: #f8f9fa;
+    padding: 15px 0;
     border-bottom: 1px solid #e9ecef;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 nav ul {
     list-style: none;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav a {
     text-decoration: none;
     color: #495057;
     font-weight: 500;
-    transition: color 0.3s ease;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 4px;
 }
 
 nav a:hover {
     color: #007bff;
+    background-color: #e9ecef;
 }
 
 /* Main content styles */
